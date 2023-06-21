@@ -3,7 +3,7 @@ import bikeImage from "../../assets/bike-1.svg";
 import addServiceImage4 from "../../assets/mobileService-1.svg";
 import addServiceImage2 from "../../assets/Vector-1.svg";
 import addServiceImage3 from "../../assets/Vector-2.svg";
-import addServiceImage1 from "../../assets/Vector.svg";
+import addServiceImage1 from "../../image/usps/usps-1.svg";
 
 export default function HomeServiceAppSec() {
   return (

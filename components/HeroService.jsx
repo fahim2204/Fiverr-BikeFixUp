@@ -3,7 +3,7 @@ import bikeImage from "../public/assets/bike-1.svg";
 import addServiceImage4 from "../public/assets/mobileService-1.svg";
 import addServiceImage2 from "../public/assets/Vector-1.svg";
 import addServiceImage3 from "../public/assets/Vector-2.svg";
-import addServiceImage1 from "../public/assets/Vector.svg";
+import addServiceImage1 from "../public/image/usps/usps-1.svg";
 import Image from "next/image";
 const HeroService = () => {
   return (
