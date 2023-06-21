@@ -2,13 +2,15 @@ import Image from "next/image";
 import React from "react";
 import marketPotentialImage from "../public/assets/PartnerMarketPotential.jpg";
 import whyUsImage from '../public/assets/PartnerWhyUs.svg';
+
+
 const PartnerPotential = () => {
     return (
         <>
             {/* market potential */}
-            <div className="px-5 text-black xl:py-8 xl:px-36 " >
+            <div className=" text-black xl:py-8">
                 <div className="partnerMarketPotential rounded-3xl py-2">
-                    <h2 className="text-2xl font-semibold text-center text-beta-900 my-5">
+                    <h2 className="text-2xl md:text-4xl font-semibold text-center text-beta-900 my-5">
                         Market Potential
                     </h2>
                     <div className="">
@@ -46,9 +48,9 @@ const PartnerPotential = () => {
                 </div>
             </div>
             {/* why choose us */}
-            <div className="  flex flex-col px-5 text-black my-10 justify-center items-center  md:flex-row xl:py-8 xl:px-36 ">
+            <div className="  flex flex-col text-black my-10 justify-center items-center  md:flex-row xl:py-8  ">
                 <div>
-                    <h2 className="text-4xl font-semibold mb-5"><span className="text-beta-900">Why</span> Choose Us?</h2>
+                    <h2 className="text-2xl md:text-4xl font-semibold mb-5"><span className="text-beta-900">Why</span> Choose Us?</h2>
                     <ul className="list-disc ml-5 pr-2">
                         <li>Entire management team having experience in automobile sector.</li>
                         <li>Providing online marketing as well as offline (door to door) marketing.</li>
@@ -65,9 +67,9 @@ const PartnerPotential = () => {
                 </div>
             </div>
             {/* Marketing Activity */}
-            <div className="partnerMarketPotential px-5 text-black py-5 lg:flex  xl:py-8 xl:px-36">
+            <div className="partnerMarketPotential px-5 text-black py-5 lg:flex  xl:py-8 ">
                 <div className="pb-2">
-                    <h2 className="text-3xl font-semibold my-5">
+                    <h2 className="text-2xl md:text-4xl font-semibold my-5">
                         Marketing <span className="text-beta-900">Activity</span>
                     </h2>
                     <p className="text-justify">
@@ -87,8 +89,8 @@ const PartnerPotential = () => {
             </div>
 
             {/* Sales support */}
-            <div className="px-5 text-black my-10 xl:py-8 xl:px-36 " >
-                <h3 className="text-center font-semibold text-3xl">
+            <div className=" text-black my-10 xl:py-8  " >
+                <h3 className="text-center font-semibold text-2xl md:text-4xl">
                     After Sales <span className="text-beta-900">Support</span>
                 </h3>
                 <p className="text-center md:px-40">

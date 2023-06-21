@@ -20,13 +20,8 @@ const HeroMobile = () => {
 
   return (
     <div
-      className="
-        relative 
-        justify-between 
-        py-[100px] 
-        px-10 
-        md:flex  
-        xl:px-36">
+      className="relative justify-between py-[100px] md:flex  
+       ">
       {/* IMAGE SECTION  */}
       <div className="absolute w-8/12 xl:w-10/12">
         <Image

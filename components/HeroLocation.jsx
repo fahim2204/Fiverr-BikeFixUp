@@ -7,7 +7,7 @@ const HeroLocation = () => {
     
       <div className="serviceMobileSecGleass px-5 lg:px-36 lg:py-[28px] mt-20 text-black flex justify-center lg:justify-between items-start relative h-96 pt-5 text-center">
         <div className="w-full flex flex-col justify-center items-center">
-          <h2 className="text-beta-900 text-4xl font-semibold mv-14 lg:mb-8">
+          <h2 className="text-beta-900 text-2xl md:text-4xl font-semibold mv-14 lg:mb-8">
             Our Presence
           </h2>
           <div className="flex flex-col w-full">

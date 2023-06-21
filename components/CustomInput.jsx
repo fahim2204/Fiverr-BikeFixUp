@@ -1,6 +1,6 @@
 import React from "react";
 
-const CustomInput = ({ component, label, name, handler, placeholder, extra_class, selectItemArray, step, type }) => {
+const CustomInput = ({ component, label, name, handler, placeholder,autoComplete, extra_class, selectItemArray, step, type }) => {
   return (
     <>
       {component === "textarea" ? (
@@ -47,6 +47,7 @@ const CustomInput = ({ component, label, name, handler, placeholder, extra_class
             onChange={handler}
             step={step}
             type={type}
+            autoComplete={autoComplete}
             className={`formGlassInput ${extra_class} `}
             placeholder={placeholder}
             name={name}

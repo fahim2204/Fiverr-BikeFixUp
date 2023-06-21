@@ -4,16 +4,16 @@ import heroImage from "../public/assets/partnerHero.svg";
 import CustomInput from "./CustomInput";
 const PartnerHeroSection = () => {
     return (
-        <div className=" px-5 text-black flex flex-col lg:flex-row xl:py-8 xl:px-36">
+        <div className="px-5 text-black flex flex-col lg:flex-row xl:py-8 ">
             <div className="lg:w-1/2">
-                <h1 className=" text-4xl text-center font-semibold text-beta-900 my-5 mb-10">
+                <h1 className=" md:text-5xl text-3xl text-center font-semibold text-beta-900 my-5 mb-10">
                     Become a partner
                 </h1>
                 <div className="w-full flex justify-center items-center">
                     <Image src={heroImage} alt="" />
                 </div>
                 <div >
-                    <h2 className="text-3xl font-semibold my-5 text-beta-900 sm:text-center lg:text-left">
+                    <h2 className="md:text-4xl text-2xl font-semibold my-5 text-beta-900 sm:text-center lg:text-left">
                         We are <span className="text-alpha-700">Bike</span>
                         <span className="text-black">fixup</span>!
                     </h2>
@@ -35,62 +35,84 @@ const PartnerHeroSection = () => {
             </div>
             <div className="  my-10 lg:w-1/2  lg:ml-10">
                 <form className="heroFormGlassDiv px-5 py-2 md:px-10 md:py-3 " >
-                    <h3 className=" text-3xl text-center font-bold text-beta-900 my-5 ">
+                    <h3 className=" md:text-3xl text-2xl text-center font-bold text-beta-900 my-5 ">
                         Become a Partner
                     </h3>
-                    <CustomInput
-                        label="Partner Name"
+                    <label htmlFor="name" className="block">Partner Name</label>
+                    <input
+                        id="name"
                         name="name"
                         placeholder="Name"
-                        extra_class="  px-3 py-3 w-full my-2"
-                        type="text" />
-                    <CustomInput
-                        label="Phone Number"
+                        className="px-3 py-3 w-full my-2 formGlassInput"
+                        type="text"
+                    />
+
+                    <label htmlFor="phone" className="block">Phone Number</label>
+                    <input
+                        id="phone"
                         name="phone"
                         placeholder="+91"
-                        extra_class="  px-3 py-3 w-full my-2"
-                        type="number" />
-                    <CustomInput
-                        label="Time frame for buying a franchise"
+                        className="px-3 py-3 w-full my-2 formGlassInput"
+                        type="number"
+                    />
+
+                    <label htmlFor="timeFrame" className="block">Time frame for buying a franchise</label>
+                    <input
+                        id="timeFrame"
                         name="timeFrame"
                         placeholder="Select time frame"
-                        extra_class="  px-3 py-3 w-full my-2"
-                        type="text" />
-                    <CustomInput
-                        label="Budget For Starting A Franchise"
-                        name="timeFrame"
-                        placeholder="Select Budget"
-                        extra_class="  px-3 py-3 w-full my-2"
-                        type="number" />
+                        className="px-3 py-3 w-full my-2 formGlassInput"
+                        type="text"
+                    />
 
-                    <CustomInput
-                        label="Location to lunch a BIKEFIXUP"
-                        name="timeFrame"
+                    <label htmlFor="budget" className="block">Budget For Starting A Franchise</label>
+                    <input
+                        id="budget"
+                        name="budget"
+                        placeholder="Select Budget"
+                        className="px-3 py-3 w-full my-2 formGlassInput"
+                        type="number"
+                    />
+
+                    <label htmlFor="location" className="block">Location to launch a BIKEFIXUP</label>
+                    <input
+                        id="location"
+                        name="location"
                         placeholder="Location"
-                        extra_class="  px-3 py-3 w-full my-2"
-                        type="text" />
-                    <CustomInput
-                        label="Are or Have You Been A Motorbike Machanics?"
-                        name="timeFrame"
+                        className="px-3 py-3 w-full my-2 formGlassInput"
+                        type="text"
+                    />
+
+                    <label htmlFor="motorbikeMechanic" className="block">Are or Have You Been A Motorbike Mechanic?</label>
+                    <input
+                        id="motorbikeMechanic"
+                        name="motorbikeMechanic"
                         placeholder="Select"
-                        extra_class="  px-3 py-3 w-full my-2"
-                        type="text" />
-                    <CustomInput
-                        label="How Did You Hear About Us?"
-                        name="timeFrame"
+                        className="px-3 py-3 w-full my-2 formGlassInput"
+                        type="text"
+                    />
+
+                    <label htmlFor="hearAboutUs" className="block">How Did You Hear About Us?</label>
+                    <input
+                        id="hearAboutUs"
+                        name="hearAboutUs"
                         placeholder="social media, website, etc."
-                        extra_class="  px-3 py-3 w-full my-2"
-                        type="text" />
-                    <CustomInput
-                        label="How Did You Hear About Us?"
-                        name="timeFrame"
-                        placeholder="social media, website, etc."
-                        extra_class="  px-3 py-3 w-full my-2"
-                        type="text" />
+                        className="px-3 py-3 w-full my-2 formGlassInput"
+                        type="text"
+                    />
+
+                    <label htmlFor="additionalInfo" className="block">Additional Information</label>
+                    <input
+                        id="additionalInfo"
+                        name="additionalInfo"
+                        placeholder="Enter additional information"
+                        className="px-3 py-3 w-full my-2 formGlassInput"
+                        type="text"
+                    />
                     <div className="w-full flex justify-center items-center my-10">
                         <button className="newMorfPurple  text-center py-2 px-10 text-white font-semibold " >
                             <span className="flex gap-2 items-center justify-center">
-                               Submit
+                                Submit
                             </span>
                         </button>
                     </div>

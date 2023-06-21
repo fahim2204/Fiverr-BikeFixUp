@@ -18,8 +18,8 @@ import image4 from "../public/assets/Vector3.svg";
 const PartnerUps = () => {
     return (
         <>
-            <div className="px-5 text-black py-5 xl:py-8 xl:px-36 ">
-                <h2 className="text-center font-semibold text-4xl text-beta-900 mb-2">
+            <div className=" text-black py-5 xl:py-8 ">
+                <h2 className="text-center font-semibold text-2xl md:text-4xl text-beta-900 mb-2">
                     Our USPS
                 </h2>
                 <div className="w-100 flex justify-center mb-7">

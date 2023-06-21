@@ -12,7 +12,7 @@ const HeroService = () => {
         <div className="text-black appServiceSecLeftCard h-full w-full px-10 sm:px-32 py-10 md:px-10 mb-10 flex justify-around md:justify-between flex-col md:flex-row lg:flex-col md:items-start"  >
           <div className="md:w-full flex flex-col justify-center items-center z-50 md:mx-5 lg:mx-0">
             <Image className="mb-[10px] w-[50px]" src={addServiceImage1} alt="" />
-            <h4 className="text-center text-2xl md:text-xl font-semibold mb-1">
+            <h4 className="text-center md:text-2xl text-xl font-semibold mb-1">
               Less Time Consuming
             </h4>
             <p className="text-center text-sm mx-0 ">
@@ -21,7 +21,7 @@ const HeroService = () => {
           </div>
           <div className="md:w-full flex flex-col justify-center items-center  z-50 md:mx-5 lg:mx-0">
             <Image className="mb-[10px] w-[50px]" src={addServiceImage2} alt="" />
-            <h4 className="text-center text-2xl md:text-xl font-semibold mb-1">
+            <h4 className="text-center md:text-2xl text-xl font-semibold mb-1">
               Easy Service Appointments
             </h4>
             <p className="text-center text-sm mx-0  ">
@@ -31,7 +31,7 @@ const HeroService = () => {
           </div>
           <div className="md:w-full flex flex-col justify-center items-center z-50 md:mx-5 lg:mx-0">
             <Image className="mb-[10px] w-[50px]" src={addServiceImage3} alt="" />
-            <h4 className="text-center text-2xl md:text-xl font-semibold mb-1">
+            <h4 className="text-center md:text-2xl text-xl font-semibold mb-1">
               Sit & Relax
             </h4>
             <p className="text-center  text-sm mx-0 ">
@@ -43,7 +43,7 @@ const HeroService = () => {
       </div>
       <div className="w-full pl-10 text-black z-50 mb-32 md:mb-0">
         <div className="md:mt-0">
-          <h3 className="text-3xl font-semibold text-left text-black space-x-0 pr-5">
+          <h3 className="md:text-4xl text-2xl font-semibold text-left text-black space-x-0 pr-5">
             Doorstep Bike{" "}
             <span className="text-beta-900">Service App</span>
           </h3>

@@ -8,12 +8,13 @@ import jobImage3 from '../public/assets/job3.jpg';
 import jobImage4 from '../public/assets/job4.jpg';
 import { MdLocationOn } from "react-icons/md";
 import Link from "next/link";
+import MainLayout from "../layouts/MainLayout";
 const career = () => {
     return (
-        <>
-            <div className=" flex flex-col-reverse text-black sm:flex-row sm:justify-between md:mt-5 xl:py-8 px-5 xl:px-36 " >
+        <MainLayout>
+            <div className=" flex flex-col-reverse text-black sm:flex-row sm:justify-between md:mt-5 xl:py-8 " >
                 <div className=" w-full  sm:w-[300px] md:w-[400px] ">
-                    <h1 className="text-[50px] font-semibold pr-0 block leading-none mb-6 sm:text=[60px] md:text-[70px] lg:text-[80px]">
+                    <h1 className="md:text-5xl text-3xl font-semibold pr-0 block leading-none mb-6 ">
                         Join with <span className="text-beta-900">Us</span>
                     </h1>
                     <p className="mb-5">
@@ -33,7 +34,7 @@ const career = () => {
             </div>
             {/* job card */}
 
-            <div className=" grid  grid-cols-1  gap-10 mt-10  w-full  px-5 sm:grid-cols-2 lg:grid-cols-3 xl:py-8  xl:px-36">
+            <div className=" grid  grid-cols-1  gap-10 mt-10  w-full  px-5 sm:grid-cols-2 lg:grid-cols-3 xl:py-8 ">
                 <div className="overflow-hidden rounded-[20px] jobCardGlass text-black">
                     <Image className="w-full" src={jobImage1} alt="" />
                     <div className="px-5 py-5">
@@ -93,9 +94,9 @@ const career = () => {
 
             </div>
 
-            <div className="w-full xl:py-8 px-5 xl:px-36 text-black my-10">
-                <h2 className="text-3xl text-center font-semibold">Can't Find Your <span className="text-beta-900">Position?</span></h2>
-                <p className=" mt-5 text-justify sm:text-center md:px-10 lg:px-20 xl:px-36 ">
+            <div className="w-full xl:py-8 px-5  text-black my-10">
+                <h2 className="md:text-4xl text-2xl text-center font-semibold">Can't Find Your <span className="text-beta-900">Position?</span></h2>
+                <p className=" mt-5 text-justify sm:text-center ">
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                 </p>
                 <div className="w-full flex justify-center items-center mt-10">
@@ -106,7 +107,7 @@ const career = () => {
                     </button>
                 </div>
             </div>
-        </>
+        </MainLayout>
 
     );
 }
