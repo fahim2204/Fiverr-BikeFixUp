@@ -34,7 +34,7 @@ const PartnerHeroSection = () => {
                 </div>
             </div>
             <div className="  my-10 lg:w-1/2  lg:ml-10">
-                <form className="heroFormGlassDiv px-5 py-2 md:px-10 md:py-3 " >
+                <form className="px-5 py-2 md:px-10 md:py-3 " >
                     <h3 className=" md:text-3xl text-2xl text-center font-bold text-beta-900 my-5 ">
                         Become a Partner
                     </h3>
