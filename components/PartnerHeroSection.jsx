@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import heroImage from "../public/assets/partnerHero.svg";
+
 const PartnerHeroSection = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-black">
@@ -9,7 +9,7 @@ const PartnerHeroSection = () => {
           Become a partner
         </h1>
         <div className="w-full flex justify-center items-center">
-          <Image src={heroImage} alt="Become Partner" />
+          <Image src="/image/partner-hero.webp" width={543} height={325} alt="Become Partner" />
         </div>
         <div>
           <h2 className="text-4xl md:text-5xl font-semibold mt-8 mb-6 text-beta-900 sm:text-center lg:text-left">
@@ -34,7 +34,7 @@ const PartnerHeroSection = () => {
       </div>
       <div className="flex justify-center md:justify-end mb-8">
         <form className="px-10 pt-5 bg-gradient-to-b from-white/20 to-white/0 bg-white/10 rounded-3xl shadow-md">
-          <h3 className=" md:text-3xl text-2xl text-center font-bold text-beta-900 my-5 font-beta">
+          <h3 className="md:text-3xl text-2xl text-center font-bold text-beta-900 my-5 font-beta">
             Become a Partner
           </h3>
           <label htmlFor="name" className="block">

@@ -6,10 +6,8 @@ import image1 from "../public/assets/service-1.svg";
 import image2 from "../public/assets/service-2.svg";
 import image3 from "../public/assets/service-3.svg";
 import image4 from "../public/assets/service-4.svg";
-import serviceBanner from "../public/assets/service-banner.png";
 import surf1 from "../public/assets/surface1.png";
 import MainLayout from "../layouts/MainLayout";
-import { BlurServiceBanner } from "../data/BlurImage";
 
 const service = () => {
   return (

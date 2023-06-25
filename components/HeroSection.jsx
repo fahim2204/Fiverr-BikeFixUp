@@ -5,8 +5,7 @@ import image1 from "../public/assets/service-1.svg";
 import image2 from "../public/assets/service-2.svg";
 import image3 from "../public/assets/service-3.svg";
 import image4 from "../public/assets/service-4.svg";
-import CustomInput from "./CustomInput";
-import { BlurHomeCover } from "../data/BlurImage"
+import BlurImage from "../data/BlurImage"
 import Link from "next/link";
 import API from "../helper/request";
 
@@ -22,8 +21,7 @@ const HeroSection = () => {
     setSelectedOption(event.target.value);
   }
   return (
-    <div className="max-w-7xl">
-      <div className="grid md:grid-cols-12 gap-6 sm:gap-8  ">
+      <div className="grid md:grid-cols-12 gap-6 sm:gap-8 mb-14">
         <div className="col-span-12 md:col-span-7">
           <div className="text-black">
             <h1 className="font-bold text-2xl md:text-4xl">
@@ -35,13 +33,13 @@ const HeroSection = () => {
             </p>
           </div>
           <Image
-            className="my-5 md:my-10 rounded-lg"
+            className="my-5 md:my-10 w-full rounded-lg"
             src={offerImage}
             alt="Offer image"
             width={620}
             height={192}
             placeholder="blur"
-            blurDataURL={BlurHomeCover}
+            blurDataURL={BlurImage.BlurHomeCover}
           />
           {/* service box */}
           <div className="grid grid-cols-4 gap-4">
@@ -66,7 +64,7 @@ const HeroSection = () => {
 
         {/* form section */}
         <div className="col-span-12 md:col-span-5">
-          <form className="heroFormGlassDiv flex flex-col space-y-3 px-5 py-2 md:px-8 md:py-3 text-black">
+          <form className="heroFormGlassDiv max-w-md mx-auto flex flex-col space-y-3 px-5 py-2 md:px-8 md:py-3 text-black">
             <h2 className="text-beta-900 text-center font-bold text-3xl my-4">
               Book Bike Service
             </h2>
@@ -111,7 +109,6 @@ const HeroSection = () => {
           </form>
         </div>
       </div>
-    </div>
   );
 };
 
