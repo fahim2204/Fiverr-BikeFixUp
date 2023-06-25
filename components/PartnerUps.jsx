@@ -82,7 +82,7 @@ const PartnerUps = () => {
             return (
               <div
                 key={index}
-                className="flex bg-gradient-to-b from-white/20 to-white/0 bg-white/30 border-t border-l rounded-xl h-24 items-center justify-between pl-5"
+                className="flex bg-gradient-to-b from-white/20 to-white/0 bg-white/20 border-t border-l rounded-xl h-24 items-center justify-between pl-5"
               >
                 <Image
                   className="w-10 h-10 mr-2"

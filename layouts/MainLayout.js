@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Footer from "/components/Footer";
-import Header from "/components/Header";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 import Image from "next/image";
 import leftBgElement from "../public/assets/001.svg";
 import rightBgElement from "../public/assets/002.svg";
@@ -14,7 +14,7 @@ export default ({ children }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-main w-full h-screen overflow-hidden">
+      <div className="bg-slate-300 w-full h-screen overflow-hidden">
        <div className="p-5 md:p-10 h-full overflow-y-scroll">
           <div className="max-w-7xl mx-auto backdrop-filter bg-clip-padding backdrop-blur-2xl bg-opacity-50 border border-white rounded-3xl overflow-hidden w-full text-slate-200 relative">
             <Image
@@ -33,7 +33,7 @@ export default ({ children }) => {
               alt="element"
             />
             <Header />
-            <main className="px-5 md:px-14 lg:px-28 xl:px-36">{children}</main>
+            <main className="px-5 md:px-14 lg:px-24">{children}</main>
             <Footer />
           </div>
        </div>

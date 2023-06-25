@@ -6,6 +6,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 html {
   font-family: "Inter", sans-serif;
   scrollbar-width: thin;
@@ -243,6 +244,14 @@ html {
     inset -4px -4px 16px rgba(121, 2, 118, 0.5),
     inset 4px 3px 16px rgba(189, 0, 183, 0.25);
   border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.newMorfPurple:hover {
+  background: hsl(302, 99%, 35%);
+  box-shadow: 2px 3px 3px rgba(231, 24, 224, 0.25), -2px -2px 2px #aa00a6,
+    1px 1px 2px rgba(0, 0, 0, 0.25), 5px 5px 7px rgba(0, 0, 0, 0.25),
+    inset -4px -4px 16px rgba(121, 2, 118, 0.5),
+    inset 4px 3px 16px rgba(189, 0, 183, 0.25);
 }
 .heroGlass {
   background: linear-gradient(
@@ -282,7 +291,7 @@ html {
     rgba(255, 255, 255, 0.05);
   box-shadow: inset -4px -4px 10px rgba(255, 255, 255, 0.5),
     inset 4px 4px 10px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(15px);
+  /* backdrop-filter: blur(15px); */
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 20px;
   border: none !important;
@@ -385,10 +394,11 @@ html {
   content: "";
   display: block;
   position: absolute;
-  width: 28px;
+  width: 34px;
+  border-radius: 10px;
   height: 3px;
   background-color: #690466;
-  bottom: -10px;
+  bottom: -9px;
 }
 
 .nav-mob.active {

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { IoLogOutOutline } from "react-icons/io5";
 import { Navbar } from "flowbite-react";
-import Avatar from "react-avatar";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useDispatch, useSelector } from "react-redux";

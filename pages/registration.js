@@ -170,17 +170,17 @@ export default () => {
                       </span>
                     </div>
 
-                    <div className="flex justify-center items-center mb-2 mt-2">
+                    <div className="flex justify-center items-center mb-2 mt-12">
                       <button
                         type="submit"
-                        className="newMorfPurple  px-16 py-2  text-white"
+                        className="newMorfPurple px-16 py-4 text-white"
                       >
                         <span className="flex gap-2 items-center justify-center">
                           Submit
                         </span>
                       </button>
                     </div>
-                    <p className="text-center  text-black text-sm">
+                    <p className="text-center  text-black text-sm mt-2">
                       Already have an account?{" "}
                       <Link href="/login" className="text-beta-900">
                         Log In

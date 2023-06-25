@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
+  cssMinimizerOptions: {
+    minimize: false,
+  },
   images: {
     domains: ['bikeadvice.in'],
   },
