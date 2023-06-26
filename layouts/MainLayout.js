@@ -15,7 +15,7 @@ export default ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="bg-slate-300 w-full h-screen overflow-hidden">
-       <div className="p-5 md:p-10 h-full overflow-y-scroll">
+       <div className="p-2 sm:p-5 md:p-10 h-full overflow-y-scroll">
           <div className="max-w-7xl mx-auto backdrop-filter bg-clip-padding backdrop-blur-2xl bg-opacity-50 border border-white rounded-3xl overflow-hidden w-full text-slate-200 relative">
             <Image
               className="absolute top-[150px] w-[290px] -z-10"
@@ -33,7 +33,7 @@ export default ({ children }) => {
               alt="element"
             />
             <Header />
-            <main className="px-5 md:px-14 lg:px-24">{children}</main>
+            <main className="px-3 md:px-14 lg:px-24">{children}</main>
             <Footer />
           </div>
        </div>

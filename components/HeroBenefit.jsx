@@ -6,7 +6,7 @@ import benifitImage5 from "../public/assets/benifit-5.svg";
 import Image from "next/image";
 const HeroBenefit = () => {
   return (
-    <div className="p-10 bg-gradient-to-b from-white/20 to-white/0 bg-white/10 rounded-3xl shadow-md text-black relative mb-12">
+    <div className="px-3 py-10 md:p-10 bg-gradient-to-b from-white/20 to-white/0 bg-white/10 rounded-3xl shadow-md text-black relative mb-12">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         <div className="flex items-center justify-center">
           <Image
@@ -33,7 +33,7 @@ const HeroBenefit = () => {
         </div>
       </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-10">
-          <div className="py-6 px-8 flex items-center space-x-4 bg-gradient-to-b from-white/20 to-white/0 bg-white/30 rounded-3xl shadow-md text-black">
+          <div className="py-5 md:py-6 px-6 md:px-8 flex items-center space-x-4 bg-gradient-to-b from-white/20 to-white/0 bg-white/30 rounded-3xl shadow-md text-black">
             <Image className="w-14 h-14" src={benifitImage3} alt="10 days Free Service Guarantee" />
             <div className="w-full">
               <p className="md:text-lg text-sm font-semibold text-beta-900">
@@ -42,7 +42,7 @@ const HeroBenefit = () => {
               <p>10 days Unconditioned Warranty</p>
             </div>
           </div>
-          <div className="py-6 px-8 flex items-center space-x-4 bg-gradient-to-b from-white/20 to-white/0 bg-white/30 rounded-3xl shadow-md text-black">
+          <div className="py-5 md:py-6 px-6 md:px-8 flex items-center space-x-4 bg-gradient-to-b from-white/20 to-white/0 bg-white/30 rounded-3xl shadow-md text-black">
             <Image className="w-14 h-14" src={benifitImage2} alt="Free Pickup & Drop service" />
             <div className="w-full">
               <p className="md:text-lg text-sm font-semibold text-beta-900">
@@ -51,7 +51,7 @@ const HeroBenefit = () => {
               <p>Real time service</p>
             </div>
           </div>
-          <div className="py-6 px-8 flex items-center space-x-4 bg-gradient-to-b from-white/20 to-white/0 bg-white/30 rounded-3xl shadow-md text-black">
+          <div className="py-5 md:py-6 px-6 md:px-8 flex items-center space-x-4 bg-gradient-to-b from-white/20 to-white/0 bg-white/30 rounded-3xl shadow-md text-black">
             <Image className="w-14 h-14" src={benifitImage4} alt="Transparent & Competitive Pricing" />
             <div className="w-full">
               <p className="md:text-lg text-sm font-semibold text-beta-900">
@@ -60,7 +60,7 @@ const HeroBenefit = () => {
               <p>ave upto 40% on your bike service</p>
             </div>
           </div>
-          <div className="py-6 px-8 flex items-center space-x-4 bg-gradient-to-b from-white/20 to-white/0 bg-white/30 rounded-3xl shadow-md text-black">
+          <div className="py-5 md:py-6 px-6 md:px-8 flex items-center space-x-4 bg-gradient-to-b from-white/20 to-white/0 bg-white/30 rounded-3xl shadow-md text-black">
             <Image className="w-14 h-14" src={benifitImage5} alt="Trained & Experts Mechanics" />
             <div className="w-full">
               <p className="md:text-lg text-sm font-semibold text-beta-900">

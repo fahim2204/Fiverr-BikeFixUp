@@ -24,7 +24,7 @@ const HeroMobile = () => {
 
       {/* Left Slider with Mobile Screen Section */}
       <div className="col-span-12 md:col-span-5">
-        <div className="mobileCase relative mx-auto w-full max-w-xs h-[480px] rounded-3xl  bg-[#C62829] border-8 flex justify-center items-center border-black overflow-hidden pt-5">
+        <div className="mobileCase relative mx-auto w-full max-w-xs h-[480px] rounded-3xl bg-[#C62829] border-8 flex justify-center items-center border-black overflow-hidden pt-5">
           <Swiper
             spaceBetween={30}
             centeredSlides={true}

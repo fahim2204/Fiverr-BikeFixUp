@@ -46,7 +46,7 @@ const HeroSection = () => {
             {services.map((service, index) => {
               return (
                 <Link key={index} href={`${service.link}`}>
-                  <div className="flex flex-col justify-center items-center px-3 py-2 lg:px-10 lg:py-5 bg-service-box h-full">
+                  <div className="flex flex-col justify-center items-center px-3 py-2 lg:px-10 lg:py-3 bg-service-box h-full">
                     <Image
                       className=""
                       src={service.img}
