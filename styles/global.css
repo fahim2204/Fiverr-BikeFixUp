@@ -58,6 +58,58 @@ html {
   display: none;
 }
 
+@keyframes scaleInOut {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}
+@keyframes jumpAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  25%, 75% {
+    transform: translateY(-15px);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+@keyframes jump {
+  0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+  40%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
+  100% {transform: translate3d(0,100%,0) scale3d(1.5,.7,1);}
+}
+@keyframes bounce-2 {
+  0%   { transform: translateY(0); }
+  25%  { transform: translateY(-15px); }
+  50%  { transform: translateY(-30px); }
+  75%  { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+@keyframes rippleAnimation {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 50px rgba(0, 0, 0, 0);
+  }
+}
+.engt .engt-launch-icon-box .engt-launcher-icon{
+  /* animation: bounce-2 2s 30s infinite both !important; */
+  border-radius: 50%;
+  animation-name: rippleAnimation !important;
+  animation-duration: 1.5s !important;
+  animation-iteration-count: 5 !important;
+  /* animation-iteration-count: infinite !important; */
+      /* animation-timing-function: linear !important; */
+  /* animation-delay: 1s !important; */
+  scale: 1.5;
+}
+
+
 .mobileCase::after {
   content: "";
   position: absolute;
