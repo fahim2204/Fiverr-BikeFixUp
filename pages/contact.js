@@ -25,8 +25,8 @@ const Contact = () => {
               priority
               alt="Contact - BikeFixup"
             />
-          <div className="mt-10">
-            <h3 className="font-semibold lg:text-4xl text-2xl mb-8">
+          <div className="mt-10 md:mb-10">
+            <h3 className="font-semibold lg:text-4xl text-2xl mb-6">
               Get in touch
             </h3>
             <ul className="text-md flex-col space-y-2">

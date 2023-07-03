@@ -21,7 +21,6 @@ const InitialAppState = () => {
       const user = JSON.parse(getCookie("user") || null);
       if (token && user) {
         dispatch(SetAuthProfile({ user, token }));
-        console.log("Cookie is available");
       }
     }
   }, []);

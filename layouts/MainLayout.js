@@ -21,16 +21,19 @@ export default ({ children }) => {
               className="absolute top-[150px] w-[290px] -z-10"
               src={leftBgElement}
               alt="element"
+              priority
             />
             <Image
               className="absolute top-[190px] right-0 w-[250px] -z-10"
               src={rightBgBallElement}
               alt="element"
+              priority
             />
             <Image
               className="absolute top-[150px] right-0 w-[200px] -z-10"
               src={rightBgElement}
               alt="element"
+              priority
             />
             <Header />
             <main className="px-3 md:px-14 lg:px-24">{children}</main>

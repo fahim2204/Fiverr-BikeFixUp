@@ -55,7 +55,6 @@ export default function HeaderTop() {
           +91-11-1111-1111
         </div>
         <div className="flex gap-4 items-center">
-          {console.log("AuthProfile>>", AuthProfile)}
           {AuthProfile.user ? (
             <div className="relative">
               <Avatar

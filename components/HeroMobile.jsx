@@ -40,7 +40,7 @@ const HeroMobile = () => {
                 <SwiperSlide key={index}>
                   <Image
                     src={`/image/slider/slider-${item}.webp`}
-                    height={473}
+                    height={398}
                     width={224}
                     alt={`BikeFixup Slider Image - ${item}`}
                   />
@@ -63,8 +63,16 @@ const HeroMobile = () => {
           affordable prices in India.
         </p>
         <div className="grid grid-cols-2 gap-5 mb-10 px-5">
-          <Image className="w-full max-w-[180px] mx-auto" src={playStoreImage} alt="Get it on Play Store" />
-          <Image className="w-full max-w-[180px] mx-auto" src={appStoreImage} alt="Get it on App Store" />
+          <Image
+            className="w-full max-w-[180px] mx-auto"
+            src={playStoreImage}
+            alt="Get it on Play Store"
+          />
+          <Image
+            className="w-full max-w-[180px] mx-auto"
+            src={appStoreImage}
+            alt="Get it on App Store"
+          />
         </div>
         <div className="flex justify-center items-center flex-row md:flex-col lg:flex-row">
           <Image

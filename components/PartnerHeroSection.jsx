@@ -9,7 +9,7 @@ const PartnerHeroSection = () => {
           Become a partner
         </h1>
         <div className="w-full flex justify-center items-center">
-          <Image src="/image/partner-hero.webp" width={543} height={325} alt="Become Partner" />
+          <Image src="/image/partner-hero.webp" width={543} height={325} priority alt="Become Partner" />
         </div>
         <div>
           <h2 className="text-4xl md:text-5xl font-semibold mt-8 mb-6 text-beta-900 sm:text-center lg:text-left">
