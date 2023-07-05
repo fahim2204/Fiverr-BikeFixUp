@@ -1,14 +1,17 @@
-import MainLayout from "../layouts/MainLayout";
-import AboutBrand from "/components/AboutBrand";
-import AboutHeroSection from "/components/AboutHeroSection";
+import MainLayout from '../layouts/MainLayout'
+import AboutHeroSection from '../components/AboutHeroSection'
+import AboutBrand from '../components/AboutBrand'
 
-export default () => {
+const About = () => {
   return (
     <>
       <MainLayout>
-        <AboutHeroSection />
+        <AboutHeroSection/>
         <AboutBrand />
       </MainLayout>
     </>
   );
 };
+
+
+export default About;
