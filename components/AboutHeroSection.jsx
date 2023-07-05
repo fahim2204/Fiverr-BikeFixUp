@@ -11,6 +11,7 @@ const AboutHeroSection = () => {
             src="/image/about-hero.webp"
             height={359}
             width={339}
+            priority
             alt="About Us - Bikefixup"
           />
         </div>
