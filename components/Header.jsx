@@ -92,13 +92,13 @@ const Header = () => {
         >
           Service
         </Navbar.Link>
-        <Navbar.Link
+        {/* <Navbar.Link
           as={Link}
           href="/payment"
           className={`nav-pc ${router.pathname === "/payment" ? "active" : ""}`}
         >
           payment
-        </Navbar.Link>
+        </Navbar.Link> */}
       </div>
       <div className="h-[2px] bg-gradient-to-l from-[#ffffff00] to-[#ffffff] bg-opacity-5 hidden md:block"></div>
     </header>

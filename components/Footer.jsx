@@ -4,7 +4,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { RiWhatsappFill } from "react-icons/ri";
 const Footer = () => {
     return (
-        <footer className="w-full bg-white h-[120px] flex px-5 xl:px-36 justify-between items-center">
+        <footer className="w-full bg-white flex px-5 xl:px-36 py-8 md:py-12 justify-between items-center">
             <span className="text-black font-[16px]">www.bikefixup.in</span>
             <span className="text-black flex justify-between items-center w-[100px] md:w-2/12">
                 <a href="https://google.com">
