@@ -28,7 +28,7 @@ const Header = () => {
   };
 
   return (
-    <header className="max-w-full py-6 xl:py-14 mx-auto px-5 xl:px-36">
+    <header className="max-w-full py-6 xl:py-14 mx-auto px-3 md:px-14 lg:px-24">
       <HeaderTop />
       {/* Navbar For PC */}
       <div className="relative hidden md:flex list-none space-x-8 pt-4 pb-2">
