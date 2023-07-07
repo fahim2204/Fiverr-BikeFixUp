@@ -67,6 +67,7 @@ const Career = () => {
             src={`/image/career-hero.webp`}
             height={283}
             width={398}
+            priority
             alt="Join with Bikefixup"
           />
         </div>
