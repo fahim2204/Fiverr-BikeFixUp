@@ -1,7 +1,20 @@
 import React from "react";
 import Image from "next/image";
+import Swal from "sweetalert2";
 
 const PartnerHeroSection = () => {
+  const successAlert = () => {
+    Swal.fire({
+      icon: 'success',
+      title: 'Your work has been saved',
+      showConfirmButton: false,
+      timer: 1500
+    })
+  };
+  const handleClick = () => {
+    successAlert();
+  };
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-black">
       <div className="">
@@ -9,7 +22,13 @@ const PartnerHeroSection = () => {
           Become a partner
         </h1>
         <div className="w-full flex justify-center items-center">
-          <Image src="/image/partner-hero.webp" width={543} height={325} priority alt="Become Partner" />
+          <Image
+            src="/image/partner-hero.webp"
+            width={543}
+            height={325}
+            priority
+            alt="Become Partner"
+          />
         </div>
         <div>
           <h2 className="text-4xl md:text-5xl font-semibold mt-8 mb-6 text-beta-900 sm:text-center lg:text-left">
@@ -112,6 +131,7 @@ const PartnerHeroSection = () => {
             className="px-8 py-3 w-full my-2 formGlassInput"
             type="text"
           />
+          <div className="p-4 bg-lime-200" onClick={handleClick}>sfgs</div>
           <div className="w-full flex justify-center items-center my-10">
             <button className="newMorfPurple text-center py-4 px-10 text-white font-semibold ">
               <span className="flex gap-2 items-center justify-center">
